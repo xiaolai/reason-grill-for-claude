@@ -1,7 +1,8 @@
 ---
 name: reason-grill-core
-description: Core conventions for reason-grill analysis agents — the calibration gate, severity scale, finding format, and evidence standards for interrogating an argument.
-globs: "**/*"
+description: "Core conventions for all reason-grill analysis skills — the calibration gate, severity scale, repair-cost tags, finding format, three-finding budget, and untrusted-input handling. Load whenever a reason-grill analysis skill is active."
+metadata:
+  short-description: Reason-grill analysis standards
 ---
 
 # Reason-Grill Core Standards
@@ -45,21 +46,21 @@ Attach to every finding above `[SOUND]`:
 
 ## Output Header
 
-Every agent MUST start its output with:
+Every analysis skill MUST start its output with:
 
 ```
-## [Agent: <agent-name>] Findings
+## [Skill: <skill-name>] Findings
 ```
 
-(The thesis agent uses `## [Agent: thesis] Map` — it maps, it does not critique.)
+(The thesis skill uses `## [Skill: reason-grill-thesis] Map` — it maps, it does not critique.)
 
-This header lets the synthesis step attribute, parse, and deduplicate findings across agents.
+This header lets the synthesis step attribute, parse, and deduplicate findings across skills.
 
 ## Finding Format
 
 Every finding MUST include:
 
-1. **Claim** — the exact quoted clause under fire (the argument's `file:line`).
+1. **Claim** — the exact quoted clause under fire.
 2. **Severity** — one of the tags above.
 3. **Objection** — the flaw + the mechanism by which it damages the conclusion.
 4. **Author's best rebuttal** — the strongest one-line defense. *Print it.* If it obviously defeats the objection, the finding self-incriminates and should have been dropped — this field keeps the gate auditable on the page.

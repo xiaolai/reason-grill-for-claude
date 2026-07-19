@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reason Grill: Roast"
+  short_description: "Multi-angle argument interrogation with a calibrated verdict"
+  default_prompt: "Use $reason-grill-roast to interrogate this argument from every angle."

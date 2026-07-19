@@ -1,0 +1,33 @@
+{
+  "name": "reason-grill",
+  "version": "0.3.0",
+  "description": "Deep argument interrogation — map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
+  "author": {
+    "name": "xiaolai"
+  },
+  "homepage": "https://github.com/xiaolai/reason-grill-for-claude",
+  "repository": "https://github.com/xiaolai/reason-grill-for-claude",
+  "license": "ISC",
+  "keywords": [
+    "argument-analysis",
+    "critical-thinking",
+    "reasoning",
+    "steelman",
+    "logic"
+  ],
+  "skills": "./codex/skills/",
+  "interface": {
+    "displayName": "Reason Grill",
+    "shortDescription": "Multi-angle argument interrogation with a calibrated verdict",
+    "longDescription": "Use Reason Grill to interrogate an argument the way a code reviewer interrogates code — map the claim, then attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]. Produces a calibrated verdict: HOLDS, HOLDS-IF-NARROWED, WOUNDED, or DEFEATED.",
+    "developerName": "xiaolai",
+    "category": "Coding",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Use $reason-grill-roast to interrogate this argument from every angle.",
+      "Grill this argument and tell me whether it holds."
+    ],
+    "websiteURL": "https://github.com/xiaolai/reason-grill-for-claude",
+    "screenshots": []
+  }
+}

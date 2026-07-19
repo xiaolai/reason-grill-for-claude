@@ -1,6 +1,6 @@
 # reason-grill
 
-Deep interrogation of an **argument** — the way [grill](https://github.com/xiaolai/grill-for-claude) interrogates a codebase. One command maps a claim, attacks it from five adversarial angles, and returns a calibrated verdict on whether it survives.
+Deep interrogation of an **argument** — the way [grill](https://github.com/xiaolai/grill-for-claude) interrogates a codebase. One command maps a claim, attacks it from five adversarial angles, and returns a calibrated verdict on whether it survives. **Works in both Claude Code and OpenAI Codex CLI.**
 
 ## What it does
 
@@ -33,6 +33,16 @@ Via the xiaolai marketplace:
 | **Project** | `/plugin install reason-grill@xiaolai --scope project` | Shared with team via `.claude/settings.json` |
 | **Local** | `/plugin install reason-grill@xiaolai --scope local` | Only you, only this repo |
 
+### OpenAI Codex CLI
+
+One-time setup (shell):
+
+```bash
+codex plugin marketplace add xiaolai/claude-plugin-marketplace
+```
+
+Then inside a Codex session: type `/plugins`, find **reason-grill** in the `xiaolai` marketplace, and install it. (Codex installs from a marketplace via the in-session TUI — there is no `codex plugin install` verb.)
+
 ## Usage
 
 ```
@@ -45,6 +55,16 @@ The argument can be inline text, a file path, or a URL:
 /reason-grill:roast docs/proposal.md
 /reason-grill:roast https://example.com/blog/why-we-should-rewrite-in-rust
 ```
+
+### In OpenAI Codex CLI
+
+Codex uses the `$skill-name` syntax, not slash commands:
+
+```
+$reason-grill-roast
+```
+
+Or just describe the task ("grill this argument from every angle") and Codex's auto-match loads the skill from its description.
 
 ## How it works
 
