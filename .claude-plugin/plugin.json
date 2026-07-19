@@ -1,0 +1,19 @@
+{
+  "name": "reason-grill",
+  "version": "0.2.0",
+  "description": "Deep argument interrogation — map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
+  "author": {
+    "name": "xiaolai"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/xiaolai/reason-grill-for-claude",
+  "repository": "https://github.com/xiaolai/reason-grill-for-claude",
+  "category": "developer-tools",
+  "keywords": [
+    "argument-analysis",
+    "critical-thinking",
+    "reasoning",
+    "steelman",
+    "logic"
+  ]
+}
