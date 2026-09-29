@@ -1,6 +1,7 @@
 ---
 name: thesis
-description: Use this agent to map an argument before critique — extract the central claim, explicit and implicit premises, inference structure, claim type, and evidence offered. Part of the reason-grill interrogation phase (always runs first).
+description: |
+  Use this agent to map an argument before critique — extract the central claim, explicit and implicit premises, inference structure, claim type, and evidence offered. Part of the reason-grill interrogation phase (always runs first).
 
   <example>
   Context: Starting a reason-grill review of an argument
@@ -19,7 +20,6 @@ description: Use this agent to map an argument before critique — extract the c
   Thesis is useful on its own for disentangling a tangled argument, not only inside a full grill.
   </commentary>
   </example>
-
 model: opus
 color: cyan
 tools: Read

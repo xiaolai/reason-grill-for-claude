@@ -1,6 +1,7 @@
 ---
 name: assumptions
-description: Use this agent to hunt an argument's silent load-bearing premises and the boundaries where its claim breaks — hidden assumptions, over-generalization, boundary failures, and base-rate/context-transfer errors. Part of the reason-grill deep-dive phase.
+description: |
+  Use this agent to hunt an argument's silent load-bearing premises and the boundaries where its claim breaks — hidden assumptions, over-generalization, boundary failures, and base-rate/context-transfer errors. Part of the reason-grill deep-dive phase.
 
   <example>
   Context: Hunting hidden assumptions during a reason-grill review
@@ -19,7 +20,6 @@ description: Use this agent to hunt an argument's silent load-bearing premises a
   Assumptions agent is the right choice when the reasoning may hold locally but the conclusion reaches past its evidence.
   </commentary>
   </example>
-
 model: opus
 color: magenta
 tools: Read

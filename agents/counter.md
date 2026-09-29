@@ -1,6 +1,7 @@
 ---
 name: counter
-description: Use this agent to red-team an argument — build the strongest steelmanned case against the thesis and test whether the argument survives it. Part of the reason-grill deep-dive phase.
+description: |
+  Use this agent to red-team an argument — build the strongest steelmanned case against the thesis and test whether the argument survives it. Part of the reason-grill deep-dive phase.
 
   <example>
   Context: Stress-testing a thesis against its strongest opposition during a reason-grill review
@@ -19,7 +20,6 @@ description: Use this agent to red-team an argument — build the strongest stee
   Counter agent is useful proactively — it finds the objections the argument fails to pre-empt.
   </commentary>
   </example>
-
 model: opus
 color: red
 tools: Read

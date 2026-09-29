@@ -1,6 +1,7 @@
 ---
 name: evidence
-description: Use this agent to test whether an argument's premises are true, supported, and calibrated. Hunts unsupported claims stated as fact, confidence miscalibration, cherry-picking, correlation-as-causation, and unfalsifiable claims. Part of the reason-grill deep-dive phase.
+description: |
+  Use this agent to test whether an argument's premises are true, supported, and calibrated. Hunts unsupported claims stated as fact, confidence miscalibration, cherry-picking, correlation-as-causation, and unfalsifiable claims. Part of the reason-grill deep-dive phase.
 
   <example>
   Context: Interrogating the factual support of an argument during a reason-grill review
@@ -19,7 +20,6 @@ description: Use this agent to test whether an argument's premises are true, sup
   Evidence agent is the right choice for confidence miscalibration — strong words backed by thin evidence.
   </commentary>
   </example>
-
 model: opus
 color: green
 tools: Read

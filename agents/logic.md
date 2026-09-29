@@ -1,6 +1,7 @@
 ---
 name: logic
-description: Use this agent to test the validity of an argument's inference — does the conclusion follow if you grant the premises? Hunts non-sequiturs, circularity, equivocation, and quantifier slips. Part of the reason-grill deep-dive phase.
+description: |
+  Use this agent to test the validity of an argument's inference — does the conclusion follow if you grant the premises? Hunts non-sequiturs, circularity, equivocation, and quantifier slips. Part of the reason-grill deep-dive phase.
 
   <example>
   Context: Interrogating an argument's reasoning during a reason-grill review
@@ -19,7 +20,6 @@ description: Use this agent to test the validity of an argument's inference — 
   Logic agent is the right choice when the premises seem fine but the reasoning that connects them is suspect.
   </commentary>
   </example>
-
 model: opus
 color: blue
 tools: Read
