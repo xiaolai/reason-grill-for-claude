@@ -89,7 +89,7 @@ If saving, add YAML frontmatter:
 ```yaml
 ---
 plugin: reason-grill
-version: 0.3.0
+version: 0.3.1
 date: <YYYY-MM-DD>
 source: <inline | file path | URL>
 style: <chosen review style>
