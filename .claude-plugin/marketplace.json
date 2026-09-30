@@ -14,7 +14,7 @@
         "repo": "xiaolai/reason-grill-for-claude"
       },
       "description": "Deep argument interrogation — one command maps a claim, then attacks it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections: on a sound argument, most angles return [SOUND]. Returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "xiaolai"
       },
