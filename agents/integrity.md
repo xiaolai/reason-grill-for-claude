@@ -1,7 +1,7 @@
 ---
 name: integrity
 description: |
-  Use this agent to test whether an argument's framing is honest and how it behaves under objection — motte-and-bailey structure, dodged objections, loaded framing, authority/emotion substituting for reasoning, and uncalibrated certainty. Part of the reason-grill deep-dive phase.
+  Use this agent to test whether an argument's framing is honest and how it behaves under objection — motte-and-bailey structure, dodged objections, loaded framing, authority/emotion substituting for reasoning, and uncalibrated certainty. Also the right choice when a piece feels like it is pulling a fast one even though its logic seems fine. Part of the reason-grill deep-dive phase. Not for judging persuasive style as such, which is fine — only framing that conceals a reasoning gap.
 
   <example>
   Context: Testing the rhetorical honesty of an argument during a reason-grill review
@@ -9,15 +9,6 @@ description: |
   assistant: "I'll use the integrity agent to check for motte-and-bailey moves, dodged objections, and loaded framing that substitutes for reasoning."
   <commentary>
   Integrity agent flags framing that conceals a reasoning gap — not merely persuasive style, which is fine.
-  </commentary>
-  </example>
-
-  <example>
-  Context: User feels manipulated by a piece but can't say why
-  user: "This essay feels like it's pulling a fast one but the logic seems okay"
-  assistant: "I'll run the integrity agent to look for a motte-and-bailey — defending a modest claim while asserting an ambitious one — and for objections the piece conspicuously never engages."
-  <commentary>
-  Integrity agent is the right choice when the reasoning checks out but the framing feels dishonest.
   </commentary>
   </example>
 model: opus

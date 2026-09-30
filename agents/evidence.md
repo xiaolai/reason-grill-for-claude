@@ -1,7 +1,7 @@
 ---
 name: evidence
 description: |
-  Use this agent to test whether an argument's premises are true, supported, and calibrated. Hunts unsupported claims stated as fact, confidence miscalibration, cherry-picking, correlation-as-causation, and unfalsifiable claims. Part of the reason-grill deep-dive phase.
+  Use this agent to test whether an argument's premises are true, supported, and calibrated. Hunts unsupported claims stated as fact, confidence miscalibration, cherry-picking, correlation-as-causation, and unfalsifiable claims — including a confident piece whose "always" and "proven" rest on thin support. Part of the reason-grill deep-dive phase. Not for judging whether the conclusion follows from the premises — it grants the inference; that is the logic agent's job.
 
   <example>
   Context: Interrogating the factual support of an argument during a reason-grill review
@@ -9,15 +9,6 @@ description: |
   assistant: "I'll use the evidence agent to test each premise for support and calibration, granting the inference structure."
   <commentary>
   Evidence agent grants the reasoning and attacks the premises: are they true and adequately supported?
-  </commentary>
-  </example>
-
-  <example>
-  Context: User wants to know if a confident-sounding post is actually over-claiming
-  user: "This piece is full of words like 'always' and 'proven' — is that backed up?"
-  assistant: "I'll run the evidence agent to check whether the confidence markers match the strength of the support behind them."
-  <commentary>
-  Evidence agent is the right choice for confidence miscalibration — strong words backed by thin evidence.
   </commentary>
   </example>
 model: opus

@@ -1,7 +1,7 @@
 ---
 name: counter
 description: |
-  Use this agent to red-team an argument — build the strongest steelmanned case against the thesis and test whether the argument survives it. Part of the reason-grill deep-dive phase.
+  Use this agent to red-team an argument — build the strongest steelmanned case against the thesis and test whether the argument survives it. Part of the reason-grill deep-dive phase. Also use it proactively before someone defends a position, to surface the hardest objections skeptics will raise and the rival hypotheses the argument does not answer. Not for testing the inference's validity or the premises' support — those are the logic and evidence agents' jobs.
 
   <example>
   Context: Stress-testing a thesis against its strongest opposition during a reason-grill review
@@ -9,15 +9,6 @@ description: |
   assistant: "I'll use the counter agent to build the strongest hostile-expert rebuttal and see whether the argument already defeats it."
   <commentary>
   Counter agent constructs steelmanned opposition — a counter it can defeat in one sentence is padding, not a finding.
-  </commentary>
-  </example>
-
-  <example>
-  Context: User is about to defend a position and wants to know the hardest objections first
-  user: "I'm presenting this proposal tomorrow — what will the skeptics hit me with?"
-  assistant: "I'll run the counter agent to surface the strongest rival hypotheses and flag any the proposal doesn't already answer."
-  <commentary>
-  Counter agent is useful proactively — it finds the objections the argument fails to pre-empt.
   </commentary>
   </example>
 model: opus

@@ -1,7 +1,7 @@
 ---
 name: thesis
 description: |
-  Use this agent to map an argument before critique — extract the central claim, explicit and implicit premises, inference structure, claim type, and evidence offered. Part of the reason-grill interrogation phase (always runs first).
+  Use this agent to map an argument before critique — extract the central claim, explicit and implicit premises, inference structure, claim type, and evidence offered. Part of the reason-grill interrogation phase (always runs first). Also useful on its own when the user can't tell what a piece of writing is actually claiming. Not for critique — it maps the argument and never judges it; the logic, evidence, counter, assumptions, and integrity agents do the attacking.
 
   <example>
   Context: Starting a reason-grill review of an argument
@@ -9,15 +9,6 @@ description: |
   assistant: "I'll use the thesis agent to map the claim and premises first, before any critique."
   <commentary>
   Thesis is always the first step — it produces the shared map the attacker agents interrogate.
-  </commentary>
-  </example>
-
-  <example>
-  Context: User can't tell what a piece of writing is actually claiming
-  user: "I can't even tell what the core claim of this blog post is"
-  assistant: "I'll run the thesis agent to extract the central claim, its supporting premises, and the hidden assumptions it rests on."
-  <commentary>
-  Thesis is useful on its own for disentangling a tangled argument, not only inside a full grill.
   </commentary>
   </example>
 model: opus

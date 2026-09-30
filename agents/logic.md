@@ -1,7 +1,7 @@
 ---
 name: logic
 description: |
-  Use this agent to test the validity of an argument's inference — does the conclusion follow if you grant the premises? Hunts non-sequiturs, circularity, equivocation, and quantifier slips. Part of the reason-grill deep-dive phase.
+  Use this agent to test the validity of an argument's inference — does the conclusion follow if you grant the premises? Hunts non-sequiturs, circularity, equivocation, and quantifier slips, including an argument that sounds convincing but hides a sleight of hand between premises and conclusion. Part of the reason-grill deep-dive phase. Not for judging whether the premises are true — it grants them; that is the evidence agent's job.
 
   <example>
   Context: Interrogating an argument's reasoning during a reason-grill review
@@ -9,15 +9,6 @@ description: |
   assistant: "I'll use the logic agent to test the inference for validity, granting the premises as true."
   <commentary>
   Logic agent assumes premises are true and attacks only the inferential structure.
-  </commentary>
-  </example>
-
-  <example>
-  Context: User suspects a slick argument has a hidden logical gap
-  user: "This sounds convincing but I feel like there's a sleight of hand somewhere"
-  assistant: "I'll run the logic agent to check for equivocation and suppressed inferential leaps between the premises and the conclusion."
-  <commentary>
-  Logic agent is the right choice when the premises seem fine but the reasoning that connects them is suspect.
   </commentary>
   </example>
 model: opus
