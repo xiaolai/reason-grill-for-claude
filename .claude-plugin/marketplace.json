@@ -4,7 +4,7 @@
     "name": "xiaolai"
   },
   "metadata": {
-    "description": "reason-grill — deep argument interrogation by xiaolai"
+    "description": "reason-grill \u2014 deep argument interrogation by xiaolai"
   },
   "plugins": [
     {
@@ -13,8 +13,8 @@
         "source": "github",
         "repo": "xiaolai/reason-grill-for-claude"
       },
-      "description": "Deep argument interrogation — one command maps a claim, then attacks it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections: on a sound argument, most angles return [SOUND]. Returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
-      "version": "0.3.2",
+      "description": "Deep argument interrogation \u2014 one command maps a claim, then attacks it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections: on a sound argument, most angles return [SOUND]. Returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
+      "version": "0.4.0",
       "author": {
         "name": "xiaolai"
       },

@@ -1,7 +1,7 @@
 {
   "name": "reason-grill",
-  "version": "0.3.2",
-  "description": "Deep argument interrogation — map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
+  "version": "0.4.0",
+  "description": "Deep argument interrogation \u2014 map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
   "author": {
     "name": "xiaolai"
   },
@@ -19,10 +19,12 @@
   "interface": {
     "displayName": "Reason Grill",
     "shortDescription": "Multi-angle argument interrogation with a calibrated verdict",
-    "longDescription": "Use Reason Grill to interrogate an argument the way a code reviewer interrogates code — map the claim, then attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]. Produces a calibrated verdict: HOLDS, HOLDS-IF-NARROWED, WOUNDED, or DEFEATED.",
+    "longDescription": "Use Reason Grill to interrogate an argument the way a code reviewer interrogates code \u2014 map the claim, then attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]. Produces a calibrated verdict: HOLDS, HOLDS-IF-NARROWED, WOUNDED, or DEFEATED.",
     "developerName": "xiaolai",
     "category": "Coding",
-    "capabilities": ["Read"],
+    "capabilities": [
+      "Read"
+    ],
     "defaultPrompt": [
       "Use $reason-grill-roast to interrogate this argument from every angle.",
       "Grill this argument and tell me whether it holds."

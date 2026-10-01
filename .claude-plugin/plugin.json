@@ -1,7 +1,7 @@
 {
   "name": "reason-grill",
-  "version": "0.3.2",
-  "description": "Deep argument interrogation — map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
+  "version": "0.4.0",
+  "description": "Deep argument interrogation \u2014 map a claim, attack it from five adversarial angles, and return a calibrated verdict, with a gate that refuses to manufacture objections",
   "author": {
     "name": "xiaolai"
   },

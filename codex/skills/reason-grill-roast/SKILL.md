@@ -28,6 +28,13 @@ The argument may be inline text, a file path, or a URL.
 
 If what you obtain contains no actual argument (just a topic, a question, or a description), say so and ask the user for the claim-plus-reasoning they want interrogated.
 
+## Default quick review
+
+Unless the user explicitly requests a full panel or a specific review style, work in the current
+context without launching recon or specialist agents/skills. Map the thesis and examine logic, evidence and the strongest counterexample. Apply the core calibration gate, including the author’s best rebuttal. Return at most three surviving objections, allowing a fully SOUND result. Give the verdict and uncertainty using Phase 5.
+After the quick report, stop. Phases 1–6 are the explicit full-review path; do not ask users
+who already chose a style to choose it again.
+
 ## Phase 1: Map the Argument
 
 Run `$reason-grill-thesis`, passing the full argument text. Save its map — you will pass it to every attacker skill so they interrogate the same target.
@@ -36,7 +43,7 @@ Run `$reason-grill-thesis`, passing the full argument text. Save its map — you
 
 Ask the user which review style to use:
 
-1. **Full grill** *(recommended default)* — all five attacker angles: logic, evidence, counter, assumptions, integrity.
+1. **Full grill** *(explicit opt-in)* — all five attacker angles: logic, evidence, counter, assumptions, integrity.
 2. **Quick pressure test** — the three highest-yield angles only: logic, evidence, counter.
 3. **Steelman-first** — before attacking, the strongest possible version of the argument is reconstructed (from the thesis map's steelman note), and the attackers target *that*. Use when the argument is worth saving and you want to attack its best form.
 4. **Devil's-advocate panel** — the counter and integrity angles run as named personas (domain skeptic, statistician, practitioner, ethicist), each landing their single hardest objection, then reconciled. Best for decisions and normative claims.

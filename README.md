@@ -105,3 +105,7 @@ Severity measures damage to the **conclusion**, not taste in how it's argued:
 ## License
 
 ISC
+
+### Quick by default
+
+The roast entry runs a bounded review in the current context by default, with at most three evidence-backed findings. Request a full panel or named style explicitly for the multi-agent workflow. A clean result is valid; finding counts are never a quality target.
